@@ -4,11 +4,26 @@ Reports and simulation evidence for autonomous cleaning and navigation algorithm
 
 **Webots · SLAM · Path planning · Robotics simulation**
 
+[![Documentation checks](https://github.com/kedharkota/Implementation-and-Analysis-of-Advanced-Navigation-Algorithms-for-Robotic-Vacuum-Cleaners-/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/kedharkota/Implementation-and-Analysis-of-Advanced-Navigation-Algorithms-for-Robotic-Vacuum-Cleaners-/actions/workflows/docs.yml)
+
 [Overview](#overview) · [Getting started](#getting-started) · [Repository guide](#repository-guide) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
-![Robotic Vacuum Navigation Study: project preview](docs/assets/simulation.png)
+<p align="center">
+  <img src="docs/assets/simulation.png" alt="Robotic Vacuum Navigation Study: project preview" width="420" />
+</p>
+
+[Open full-size visual](docs/assets/simulation.png)
 
 *Original map figure extracted from the final review, page 8.*
+
+## Project at a glance
+
+| Detail | Project information |
+| --- | --- |
+| **Focus** | Autonomous cleaning, mapping, and coverage planning |
+| **Start here** | [Final_Review.pdf](Final_Review.pdf) |
+| **Run mode** | Research/report archive; simulation source is not committed |
+| **Explore** | Methodology, planning comparisons, and original map figures |
 
 ## Overview
 
@@ -23,7 +38,11 @@ A research and coursework archive examining navigation for a simulated robotic v
 
 ## Workflow
 
-![Project workflow](docs/assets/overview.svg)
+<p align="center">
+  <img src="docs/assets/overview.svg" alt="Project workflow" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/overview.svg)
 
 *Explanatory diagram. Detailed implementation and availability notes follow below.*
 
@@ -56,6 +75,9 @@ The map preview above is extracted from page 8 of the committed final review. Al
 
 ## Documentation maintenance
 
+<details>
+<summary>Run documentation checks and maintain visuals</summary>
+
 Local documentation links and image headers are checked on pull requests and relevant pushes by the [documentation workflow](.github/workflows/docs.yml). Run the same check locally:
 
 ```bash
@@ -63,6 +85,13 @@ python tools/check_docs.py
 ```
 
 See the [reproducibility guide](docs/REPRODUCIBILITY.md) for evidence, missing artifacts, and visual-source notes. The check validates documentation files; it does not train models or certify application behavior.
+
+</details>
+
+## Explore related projects
+
+- [Gesture-Controlled Drone Simulation](https://github.com/kedharkota/Gesture-Controlled-Drone-)
+- [Network Routing with Tries & Dijkstra](https://github.com/kedharkota/Advanced-Data-Structures-and-Algorithms)
 
 ---
 
